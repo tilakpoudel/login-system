@@ -14,9 +14,10 @@
     // Use env vars or fallback to defaults
     $host     = $_ENV['DB_HOST']     ?? '127.0.0.1';
     $port     = $_ENV['DB_PORT']     ?? '3306';
-    $dbname   = $_ENV['DB_NAME']     ?? 'engagenow';
-    $username = $_ENV['DB_USER']     ?? 'engagenow';
-    $password = $_ENV['DB_PASSWORD'] ?? 'engagenow';
+    // Ensure these environment variables are set
+    $dbname   = $_ENV['DB_NAME']     ?? 'your_database'; // Change to your database name
+    $username = $_ENV['DB_USER']     ?? 'db_username'; // Change to your database username
+    $password = $_ENV['DB_PASSWORD'] ?? 'db_password'; // Change to your database password
 
     try {
         $dsn = "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4";
