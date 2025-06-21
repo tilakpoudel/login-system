@@ -63,6 +63,12 @@
             transition: color 0.3s;
         }
 
+        .password-toggle .fa-eye, .password-toggle .fa-eye-slash {
+            position: absolute;
+            top: 0;
+            left: -10px;
+        }
+
         input {
             width: 100%;
             padding: 14px 15px 14px 45px;

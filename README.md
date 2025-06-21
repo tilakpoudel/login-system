@@ -30,8 +30,8 @@ A simple PHP, MySQL, and JavaScript-based registration and login system with mod
 ### 1. **Clone the Repository**
 
 ```sh
-git clone <your-repo-url>
-cd assignment
+git clone https://github.com/tilakpoudel/login-system
+cd login-system
 ```
 
 ### 2. **Configure Environment Variables**
